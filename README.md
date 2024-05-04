@@ -8,7 +8,7 @@ import cv2
 face_cascade=cv2.CascadeClassifier(cv2.data.haarcascades+'haarcascade_frontalface_default.xml')
 
 #Load the image into this model
-image=cv2.imread('friends.jpg')
+image=cv2.imread('images.jpg')
 
 #convert image to gray scale image
 
